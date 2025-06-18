@@ -49,6 +49,8 @@ function generateReport(){
 
     for (const patient of patients) {
         conditionsCount[patient.condition]++;
-        genderConditions
+        genderConditionsCount[patient.gender][patient.condition]++;
     }
+
+    r
 }
